@@ -6,6 +6,23 @@ class Employee {
     }
 }
 
+getName() {
+    return this.name;
+}
+
+GeolocationCoordinates() {
+    return this.id;
+}
+
+getEmail() {
+    return this.email;
+}
+
+getPosition() {
+    return this.Employee
+}
+
+module.export = Employee;
 
 
 

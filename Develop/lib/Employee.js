@@ -1,31 +1,24 @@
+// Create parent class named Employee with properties and methods
+// Class and properties
 class Employee {
-    constructor(name, id, email)  {
+    constructor(name, id, email) {
         this.name = name;
         this.id = id;
-        this.email;
+        this.email = email;
+    }
+    // methods
+    getName() {
+        return this.name;
+    }
+    getId() {
+        return this.id;
+    }
+    getEmail() {
+        return this.email;
+    }
+    getRole() {
+        return "Employee";
     }
 }
 
-getName() {
-    return this.name;
-}
-
-GeolocationCoordinates() {
-    return this.id;
-}
-
-getEmail() {
-    return this.email;
-}
-
-getPosition() {
-    return this.Employee
-}
-
-module.export = Employee;
-
-
-
-
-
-
+module.exports = Employee;

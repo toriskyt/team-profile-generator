@@ -1,3 +1,6 @@
+// Pull in inquirer
+const inquirer = require(`inquirer`);
+
 // Pull in parent class Employee to access properties and methods
 const Employee = require(`./Employee`);
 

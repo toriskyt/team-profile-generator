@@ -21,4 +21,5 @@ class Employee {
     }
 }
 
+// Exports the parent class to be used in the child
 module.exports = Employee;

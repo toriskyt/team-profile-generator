@@ -2,10 +2,10 @@
 const Employee = require(`./Employee`);
 
 // Using properties and methods from parent class Employee and adding to it via `extension`
-// `super` is used to access properties from parent class and add github
+// The keyword `super` is used call the parent method's constructor
 class Engineer extends Employee {
     constructor(name, id, email, github) {
-       super(name, id, email) {
+       super(name, id, email); {
             this.github = github;
        }
     }

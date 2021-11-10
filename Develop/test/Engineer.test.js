@@ -1,31 +1,19 @@
-const Employee = require(`../lib/Employee`)
+const Employee = require("../lib/Employee");
+const Engineer = require(`../lib/Engineer`);
 
 test(`makes an object`, () => {
-    const emp = new Employee ();
-    expect(typeof(emp)).toBe(`object`);
+    const eng = new Engineer ();
+    expect(typeof(eng)).toBe(`object`);
 })
 
-test(`can set name`, () => {
-    const name = `Tracy`
-    const emp = new Employee (name);
-    expect(emp.name).toBe(name);
+test(`can set github`, () => {
+    const github = `GitHub`
+    const eng = new Engineer ("Foo", id, "duq@duq.edu", github);
+    expect(eng.github).toBe(github);
 })
 
-test(`can get name`, () => {
-    const name = `Agnes`
-    const emp = new Employee (name);
-    expect(emp.getName()).toBe(name);
+test(`can get get github`, () => {
+    const github = `GitHub`
+    const eng = new Engineer (github);
+    expect(eng.getgithub()).toBe(github);
 })
-
-test(`can set id`, () => {
-    const id = 1234;
-    const emp = new Employee (`Foo`, id);
-    expect(emp.id).toBe(id);
-})
-
-test(`can get id`, () => {
-    const id = 1234;
-    const emp = new Employee (`Foo`, id);
-    expect(emp.getId()).toBe(id);
-})
-

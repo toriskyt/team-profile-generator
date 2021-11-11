@@ -14,4 +14,6 @@ and then added an additional property "officeNumber."
 
 I repeated this process for the Intern and Engineer classes.  I added "school" to the Intern and "github" to the Engineer class.
 
-I created a list of questions in the index.js file, and then a series of tests to run them successfully using npm run test.
+I created a list of questions in the index.js file, and then a series of tests in Employee, Engineer, Intern, and Manager.js files.
+
+I was ableto run the tests successfully using "npm run test."  All five tests passed.

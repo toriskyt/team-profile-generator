@@ -65,7 +65,24 @@ function addManager() {
         mainMenu()
     })
 }
-
+function addEngineer() {
+    inquirer.prompt(memberInfo).then(answers => {
+        console.log(`Member ${answers[`name`]}`);
+        const e = new Engineer(answers.name, answers.id, answers.email, answers.officeNumber);
+        team.push(e);
+        console.log(team);
+        mainMenu()
+    })
+}
+function addIntern() {
+    inquirer.prompt(memberInfo).then(answers => {
+        console.log(`Member ${answers[`name`]}`);
+        const i = new Intern(answers.name, answers.id, answers.email, answers.officeNumber);
+        team.push(i);
+        console.log(team);
+        mainMenu()
+    })
+}
 
 mainMenu()
 

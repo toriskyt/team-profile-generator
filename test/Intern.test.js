@@ -8,12 +8,12 @@ test(`makes an object`, () => {
 
 test(`can set school`, () => {
     const school = "DU"
-    const int = new Intern (`Foo`, id, "duq@duq.edu", "DU");
+    const int = new Intern (`Foo`,1, "duq@duq.edu", "DU");
     expect(int.school).toBe(school);
 })
 
 test(`can get school`, () => {
     const school = "DU"
-    const int = new Intern (`Foo`, id, "duq@duq.edu", school);
+    const int = new Intern (`Foo`, 1, "duq@duq.edu", school);
     expect(int.getSchool()).toBe(school);
 })

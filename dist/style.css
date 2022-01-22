@@ -10,10 +10,19 @@ header {
     background-color: rgb(49, 209, 9);
 }
 
-/* .container {
-    width: 1000px;
-} */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
 
 #card-top {
     background-color: greenyellow;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }

@@ -1,5 +1,11 @@
 Team Profile Generator
 
+Tracy Torisky
+
+ttorisky@gmail.com
+
+![screenshot of team profile generator](./lib/assets/TeamProfileGenerator.png)
+
 I first created constructors for Employee, Engineer, Intern, and Manager
 
 The Employee class constructor contained all of the basic property and methods that each Employee will need:
